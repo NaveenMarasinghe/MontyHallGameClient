@@ -1,0 +1,11 @@
+<h3 class="title">{{ "GameId - " + gameId }}</h3>
+<div class="detailsRow">
+  <h3 class="detailsRowItem">
+    {{ "Simulated Games - " + gameCard.noOfSimulations }}
+  </h3>
+  <h3 class="detailsRowItem">{{ "Switch Door - " + gameCard.switchDoor }}</h3>
+  <button class="btn detailsRowItem" (click)="onClick(gameId)">
+    Simulate Games
+  </button>
+</div>
+<app-game-doors [gameData]="gameData"></app-game-doors>

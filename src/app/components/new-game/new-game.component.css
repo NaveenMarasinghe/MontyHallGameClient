@@ -1,0 +1,32 @@
+.new-game {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .new-game.reminder {
+    border-left: 5px solid green;
+  }
+  
+  .new-game h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .form-control{
+    display: flex;
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .form-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-label{
+    width: 100%;
+    align-self: center;
+  }

@@ -1,0 +1,15 @@
+<div>{{ "Game Sequence - " + game.gameDataId }}</div>
+<div class="doors">
+  <div class="doorsItem">
+    <img [src]="imagesObject.image1" alt="My Image" />
+    <h3>{{ selectedObject.door1 == true ? "Selected Door" : "" }}</h3>
+  </div>
+  <div class="doorsItem">
+    <img [src]="imagesObject.image2" alt="My Image" />
+    <h3>{{ selectedObject.door2 == true ? "Selected Door" : "" }}</h3>
+  </div>
+  <div class="doorsItem">
+    <img [src]="imagesObject.image3" alt="My Image" />
+    <h3>{{ selectedObject.door3 == true ? "Selected Door" : "" }}</h3>
+  </div>
+</div>

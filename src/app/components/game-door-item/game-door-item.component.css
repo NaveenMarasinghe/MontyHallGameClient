@@ -1,0 +1,8 @@
+.doors{
+    display: flex;
+}
+
+.doorsItem{
+    width: 100%;
+    text-align: center;
+}

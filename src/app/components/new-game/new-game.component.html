@@ -1,0 +1,30 @@
+<div class="new-game">
+  <h3>New Game</h3>
+  <form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-container">
+      <div class="form-control">
+        <label for="noOfSimulations" class="form-label"
+          >No of Simulations</label
+        >
+        <input
+          type="text"
+          name="noOfSimulations"
+          id="noOfSimulations"
+          [(ngModel)]="noOfSimulations"
+          placeholder="No of Simulations"
+        />
+      </div>
+      <div class="form-control form-control-check">
+        <label for="switchDoor" class="form-label">Switch Door</label>
+        <input
+          type="checkbox"
+          name="switchDoor"
+          id="switchDoor"
+          [(ngModel)]="switchDoor"
+          placeholder="Switch Door"
+        />
+      </div>
+    </div>
+    <input type="submit" value="Create New Game" class="btn btn-block" />
+  </form>
+</div>

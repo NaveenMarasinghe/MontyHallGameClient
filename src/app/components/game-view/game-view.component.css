@@ -1,0 +1,18 @@
+.title{
+    text-align: center;
+}
+
+.detailsRow{
+    display: flex;
+    margin-top: 10px;
+}
+
+.detailsRowItem{
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.btn{
+    width: 100%;
+}
